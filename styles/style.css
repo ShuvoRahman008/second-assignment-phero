@@ -153,7 +153,7 @@
     margin-left: 240px;
     margin-right: 240px;
     margin-top: 150px;
-    background-color:rgba(255, 144, 14, 0.1) ;
+    
 
 
 }
@@ -416,4 +416,132 @@
 }
 .extra-info p {
     margin-bottom:50px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .header-content{
+        flex-direction: column;
+    }
+    .nav-body{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .nav-title{
+        flex-direction: column;
+    }
+    .banner-info, .banner-img, .images, .banner-content{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .team-images{
+        flex-direction: column;
+        margin-left:200px;
+    }
+
+
+    .images{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+
+    .team{
+        flex-direction: column;
+        padding-left: 250px;
+    }
+    .team-content{
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
+    /* features */
+
+
+    .features-content{
+        flex-direction: column;
+
+    }
+    .features-image{
+        flex-direction: column;
+    }
+    .btn-feature{
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    
+    .features{
+        margin-left: 500px;
+    }
+
+
+
+
+
+/* facts */
+
+
+
+
+    .facts{
+        flex-direction: column;
+        margin-top: 1200px;
+        margin-left: 450px;
+    }
+    .icons{
+        flex-direction: column;
+        
+    
+    }
+    .icon{
+        margin-top: 50px;
+        margin-left: 400px;
+    }
+
+    /* sponsors */
+
+    .sponsors {
+        flex-direction: column;
+        
+
+    }
+    .sponsors-logo{
+        flex-direction: column;
+        margin-left: 600px;
+        
+    }
+    .sponsors-logo img{
+        margin-top: 50px;
+    }
+    .sponsor-section{
+        
+        margin-left: 600px;
+        
+    }
+    .sponsor-title{
+        margin-left: 600px;
+        margin: 100px;
+    }
+    
+    
+
+    /* extra */
+
+    .extra-section{
+        flex-direction: column;
+    }
+    .profile-btn{
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* footer */
+
+    .copyright{
+        justify-content: center;
+        align-items: center;
+    }
 }
