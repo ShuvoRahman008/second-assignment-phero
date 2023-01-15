@@ -1,4 +1,7 @@
 /* header styles */
+*{
+    margin: 0;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
 
@@ -150,7 +153,13 @@
     margin-left: 240px;
     margin-right: 240px;
     margin-top: 150px;
+    background-color:rgba(255, 144, 14, 0.1) ;
 
+
+}
+.features-main-content p{
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -168,6 +177,7 @@
     height: 130px;
     padding: 30px 30px 30px 30px;
     margin-top: 20px;
+
     
 
 
@@ -212,12 +222,22 @@
     position: relative;
     bottom: 150px;
 }
+.features-items{
+    background-color:white;
+    border-radius: 5px;
+    
+    
+    
+}
 
 
 
 .btn-feature p {
     font-weight: 700;
     font-size: 35px;
+}
+.feature h2{
+    margin-bottom: 30px;
 }
 
 
@@ -239,6 +259,7 @@
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+    margin-top: 130px;
 }
 
 .facts-main p {
@@ -270,7 +291,7 @@
     text-align: center;
     padding: 20px 20px 20px 00px;
     margin-right: 50px;
-    transition: width 5s, height 5s, transform 2s;
+    transition: width 5s, height 5s, transform 3s;
 
 
 
