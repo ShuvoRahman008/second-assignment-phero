@@ -91,7 +91,7 @@
 /* main */
 .team {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 130px;
 }
 
@@ -105,12 +105,23 @@
 
 
 }
+.team-content{
+    /* align-items: center;
+    justify-content: center;
+     */
+    border: 2px ;
+    width: 700px;
+    height: 700px;
+   
+
+}
 
 .team-description {
     margin-left: 80px;
-    margin-top: 250px;
-    margin-bottom: 5px;
-}
+    margin-top: 130px;
+    
+    padding-bottom: 300px;
+} 
 
 .title {
     text-align: left;
@@ -157,6 +168,7 @@
     height: 130px;
     padding: 30px 30px 30px 30px;
     margin-top: 20px;
+    
 
 
 }
@@ -182,8 +194,8 @@
 }
 
 .features-image {
-    width: 800px;
-    height: 1059px;
+    width: 708px;
+    height: 982px;
 }
 
 .features-head {
@@ -198,7 +210,7 @@
     border-radius: 5px;
     margin-bottom: 100px;
     position: relative;
-    bottom: 200px;
+    bottom: 150px;
 }
 
 
@@ -251,16 +263,25 @@
 
 .icon {
     border: 1px solid;
-    width: 241.83px;
-    height: 241.83px;
+    width: 200.83px;
+    height: 200.83px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
-    padding: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 00px;
     margin-right: 50px;
+    transition: width 5s, height 5s, transform 2s;
 
 
 
+
+}
+
+.icon:hover{
+    width: 250px;
+    height: 250px;
+    transform: rotate(-720deg) ;
+    background-color: aqua;
 }
 
 .facts-icons {
